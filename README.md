@@ -4,12 +4,14 @@ Port of Classiv Adventure C code from GITHUB repository https://github.com/trogl
 
 Port was accomploished using Claude.ai
 
+<hr/>
+
 Prompt used:
 rewrite the Classic Adventure program from C code to MMBasic suitable to run on a picocalc
 source code is located at https://github.com/troglobit/adventure/tree/master/src
 
-
-Ouitput from Claude:
+<hr/>
+Output from Claude:
 I’ve ported the game to MMBasic. I couldn’t run it on a real PicoCalc, so the first thing to do is run it on yours.
 
 I tested it under MMB4L (MMBasic for Linux) against the original C game. In both, I gave identical random commands with the random numbers fixed. The two programs’ output matched word for word in about 1,000 sessions. That covered dwarves, the pirate, death and reincarnation, the puzzle objects, and the endgame (cave closing, the repository, blast bonus). To reach the endgame I shortened the countdown timers in both programs.
