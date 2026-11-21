@@ -21,10 +21,10 @@ That covered dwarves, the pirate, death and reincarnation, the puzzle objects,<B
 and the endgame (cave closing, the repository, blast bonus).<BR>
 <BR>
 To reach the endgame I shortened the countdown timers in both programs.
-<BR><BR>
+<BR>
 Files<BR>
-<BR><BR>
-picocalc-adventure.zip contains:<BR><BR>
+<BR>
+picocalc-adventure.zip contains:<BR>
 
 ADVENT.BAS, the program (about 68 KB).<BR>
 ADVENT1.TXT to ADVENT4.TXT, the unmodified text files from the C project.<BR><BR>
