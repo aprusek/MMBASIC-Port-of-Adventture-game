@@ -11,28 +11,30 @@ rewrite the Classic Adventure program from C code to MMBasic suitable to run on 
 source code is located at https://github.com/troglobit/adventure/tree/master/src
 
 <hr/>
-Output from Claude:
+Output from Claude: <BR>
 I’ve ported the game to MMBasic. I couldn’t run it on a real PicoCalc, so the first thing to do is run it on yours.
 
 I tested it under MMB4L (MMBasic for Linux) against the original C game. In both, I gave identical random commands with the random numbers fixed. The two programs’ output matched word for word in about 1,000 sessions. That covered dwarves, the pirate, death and reincarnation, the puzzle objects, and the endgame (cave closing, the repository, blast bonus). To reach the endgame I shortened the countdown timers in both programs.
-
+<BR>
 Files
 
-picocalc-adventure.zip contains:
+picocalc-adventure.zip contains:<BR>
 
-ADVENT.BAS, the program (about 68 KB).
-ADVENT1.TXT to ADVENT4.TXT, the unmodified text files from the C project.
+ADVENT.BAS, the program (about 68 KB).<BR>
+ADVENT1.TXT to ADVENT4.TXT, the unmodified text files from the C project.<BR>
 
 Put all five files in the same folder on the SD card. Then run RUN "advent.bas". If the files aren’t in the current directory, set DATADIR$ near the top of the program, for example "B:/advent/".
 
-How it works
+<BR>
+How it works<BR>
 Text stays on the SD card. The 47 KB of descriptions is read on demand rather than stored in the program. On startup the program scans the four files once to find where each message starts.
 Tables are generated from the C source. The cave map, vocabulary and starting state were extracted by script from advcave.h, advword.h and advent.c, so nothing was retyped.
 Screen fitting. It detects the screen size and re-wraps the hard-wrapped text to the screen width. A [more] pause appears when a screen fills. Save and restore use ADVENT.SAV, via SUSPEND and RESTORE.
-Differences from the C version
-
+<BR>
+Differences from the C version<BR>
+<BR>
 The C version has bugs that I did not copy:
-
+<BR>
 Long messages broke. Messages numbered above 127 printed nothing or garbage, for example break food, read, and feed.
 back was broken. The C version copied only the first of the travel entries and could crash on special exits.
 log could crash.
