@@ -22,8 +22,7 @@ and the endgame (cave closing, the repository, blast bonus).<BR>
 <BR>
 To reach the endgame I shortened the countdown timers in both programs.
 <BR>
-Files<BR>
-<BR>
+<B>Files</B><BR>
 picocalc-adventure.zip contains:<BR>
 
 ADVENT.BAS, the program (about 68 KB).<BR>
