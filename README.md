@@ -1,6 +1,6 @@
 # MMBASIC-Port-of-Adventure-game
 
-Port of Classiv Adventure C code from GITHUB repositopry https://github.com/troglobit/adventure
+Port of Classiv Adventure C code from GITHUB repository https://github.com/troglobit/adventure
 
 Port was accomploished using Claude.ai
 
