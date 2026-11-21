@@ -1,4 +1,4 @@
-# MMBASIC-Port-of-Adventture-game
+# MMBASIC-Port-of-Adventure-game
 
 Port of Classiv Adventure C code from GITHUB repositopry https://github.com/troglobit/adventure
 
