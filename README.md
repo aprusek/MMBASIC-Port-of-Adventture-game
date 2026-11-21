@@ -6,8 +6,8 @@ Port was accomploished using Claude.ai
 
 <hr/>
 
-Prompt used:
-rewrite the Classic Adventure program from C code to MMBasic suitable to run on a picocalc
+Prompt used: <BR>
+rewrite the Classic Adventure program from C code to MMBasic suitable to run on a picocalc <BR>
 source code is located at https://github.com/troglobit/adventure/tree/master/src
 
 <hr/>
